@@ -1,6 +1,7 @@
 # state_machine_simulation
 #using python
 #State and Transition Definitions*
+#The State class will represent each state, and the Transition class will represent the transitions between states based on inputs.
 #- *Task*: Write code to define states and transitions.
 class State:
     def __init__(self, name):
@@ -16,6 +17,5 @@ class Transition:
         self.input_symbol = input_symbol
         self.to_state = to_state 
 
-  #- Create a class for the state machine.
-  #- Add methods to add states and transitions.
-  #- Set the initial state.
+ 
+

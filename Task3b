@@ -1,0 +1,17 @@
+Sample input1:
+["input_1", "input_2", "input_1", "input_1"]
+
+Expected Output1:
+After input input_1: Current state is WORKING
+After input input_2: Current state is PAUSED
+After input input_1: Current state is WORKING
+After input input_1: Current state is IDLE
+
+Sample input2:
+["input_2", "input_1", "input_2", "input_2"]
+
+Excepted Output2:
+After input input_2: Current state is IDLE
+After input input_1: Current state is WORKING
+After input input_2: Current state is PAUSED
+After input input_2: Current state is IDLE
